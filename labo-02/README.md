@@ -1,16 +1,16 @@
 # Labo 2 - reflecties
 
-Naam: (jouw naam)
+Naam: ilyas hajo taamouti
 
 ## 2. Selectors lezen
 
 Welke elementen raakt elke selector? Eén zin per selector.
 
-- a. `header nav ul li a`: 
-- b. `article > p`: 
-- c. `.uren li:nth-child(3)`: 
-- d. `h2 ~ p`: 
-- e. `.rassen li:first-child`: 
+- a. `header nav ul li a`: Dus deze selector zoekt links in een lijst binnen de navigatie van de header.
+- b. `article > p`: Deze selector selecteert alle paragrafen die rechtstreeks binnen een article staan.
+- c. `.uren li:nth-child(3)`: De selector selecteert het derde lijstitem in de lijst met de class uren.
+- d. `h2 ~ p`: Selecteert alle paragrafen die na een h2 staan en dezelfde ouder hebben.
+- e. `.rassen li:first-child`: Selecteert alle lijstitems die het eerste kind van hun ouder zijn binnen de lijst met de class rassen.
 
 ## 3. Voorspel, dan kijk
 
