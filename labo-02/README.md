@@ -38,8 +38,10 @@ Bij welke vraag zat je fout, en wat was de reden? (Alles juist? Welke vraag duur
 
 ## 6. Je site
 
-- Welke drie waarden staan in je tokenblok, en waarom die?
+- Welke drie waarden staan in je tokenblok, en waarom die? 
+Ik heb een achtergrondkleur, tekstkleur en accentkleur gekozen. De achtergrondkleur zorgt voor een rustige website, de tekstkleur maakt alles goed leesbaar en de accentkleur laat belangrijke onderdelen opvallen.
 - Wat verandert er in je site als je één token wijzigt?
+Als ik één token verander, veranderen automatisch alle onderdelen van mijn website die dat token gebruiken. Zo hoef ik niet overal apart de kleur aan te passen.
 
 ## Thuis: R2.3 (met AI)
 
