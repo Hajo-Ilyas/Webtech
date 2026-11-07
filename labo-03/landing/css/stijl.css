@@ -1,0 +1,96 @@
+/* stijl.css - labo 3, landing (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+    --color-banner:#c8b8ff;
+    --color-link:#5551ff;
+    --color-hero:#779cee;
+    --color-ink: #000000;
+    --color-paper: #ffffff;
+    --color-hover: #333333;
+    --font-body: Arial, Helvetica, sans-serif;
+    --space: 2rem;
+}
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+}
+.banner {
+    text-align:center;
+    padding: 1rem;
+    font-size: 0.875rem;
+    background-color: var(--color-banner);
+}
+.banner a {
+  color: var(--color-link);
+
+}
+header {
+    text-align: right;
+    padding: 1.5rem var(--space);
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+}
+header li {
+    display:inline-block;
+    margin-left: var(--space);
+}
+nav a {
+    color: var(--color-ink);
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+main {
+    background-color: var(--color-hero);
+    padding: var(--space) 4rem;
+    min-height: 80vh;
+}
+article,
+.afbeelding {
+  display: inline-block;
+  vertical-align: top;       /* otherwise they line up on their baseline */
+  width: 50%;
+}
+article {
+  padding: var(--space) 4rem var(--space) 0;
+}
+.afbeelding {
+  padding: var(--space);
+}
+img {
+    width:70%;
+    
+}
+.bovenkop {
+    font-size:1.25rem;
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem; 
+    line-height: 1.15;
+}
+article p {
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    max-width:24rem;
+}
+.knop {
+    display:inline-block;
+    background-color: black;
+    color:white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+}
+.banner a:hover, .banner a:focus, header a:hover, header a:focus {
+    text-decoration:underline;
+}
+.knop:hover, .knop:focus {
+    background-color: var(--color-hover);
+}
+/* === your rules === */
