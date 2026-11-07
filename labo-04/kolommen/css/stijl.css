@@ -2,7 +2,18 @@
 
 /* === tokens === */
 :root {
-
+--color-box1:darkturquoise;
+--color-box2:darkviolet;
+--color-box3:deepskyblue;
 }
-
+main {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 20rem;
+}
+div {
+    flex: 1;
+    flex: 2;
+}
 /* === your rules === */
