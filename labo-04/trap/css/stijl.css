@@ -2,7 +2,54 @@
 
 /* === tokens === */
 :root {
-
+    --color-vlak1:#1446a0;
+    --color-vlak2:#db3069;
+    --color-vlak3:#f5d547;
+    --color-vlak4:#ebebd3;
+    --color-nr4:#2b2b2b;
+    --color-paper:white;
+    --font-family:arial, sans-serif;
+    --font-size: 3rem;
 }
-
+.trap {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height:100vh;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    text-align:center;
+}
+div:nth-child(1) {
+    display:grid; 
+    place-items:center;
+    background-color: var(--color-vlak1);
+    grid-row: 1;
+    grid-column: 1;
+    color: var(--color-paper);
+}
+div:nth-child(2) {
+    display:grid;
+    place-items:center;
+    background-color: var(--color-vlak2);
+    grid-row: 2;
+    grid-column: 2;
+    color: var(--color-paper);
+}
+div:nth-child(3) {
+    display:grid;
+    place-items:center;
+    background-color: var(--color-vlak3);
+    grid-row: 3;
+    grid-column: 3;
+    color: var(--color-paper);
+}
+div:nth-child(4) {
+    display:grid;
+    place-items:center;
+    background-color: var(--color-vlak4);
+    grid-row: 4;
+    grid-column: 4;
+    color: var(--color-nr4);
+}
 /* === your rules === */
